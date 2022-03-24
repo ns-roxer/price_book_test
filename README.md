@@ -23,5 +23,5 @@ type RecentTrade struct {
 
 Не использовать готовые клиенты (библиотеки) для работы с API полоникса, разрешено использовать стандартные библиотеки для работы с ws
 
-Пример вызова:
-`go `
+Пример запуска:
+`go build -race . && ./price_book_test '{"poloniex":["BTC_USDT", "TRX_USDT", "ETH_USDT", "COMBO_USDT"]}'`
