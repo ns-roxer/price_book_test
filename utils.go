@@ -7,7 +7,6 @@ import (
 	"strings"
 )
 
-/* start utils */
 type currencies struct {
 	Poloniex []string `json:"poloniex"`
 }
@@ -49,5 +48,3 @@ var ErrNoTransactionsInfo = errors.New("no transactions info")
 type externalError struct {
 	Error string `json:"error"`
 }
-
-/* end utils */
